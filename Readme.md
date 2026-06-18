@@ -18,6 +18,7 @@ A robust, interactive command-line interface application built in Python for tra
 
 ## Installation & Setup
 
+1. Initialize and activate a virtual environment
 ```bash
 # Windows
 python -m venv venv
@@ -27,11 +28,13 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-
+2. Install dependencies
 ```bash 
 pip install -r requirements.txt
 ```
+3. Launch the application
 
+Note: Ensure you run this command from the root directory of the project so Python can properly resolve the modules.
 ```bash 
 python -m src.cli
 ```
